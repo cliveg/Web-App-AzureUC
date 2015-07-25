@@ -17,8 +17,7 @@
 
         },
         "siteLocation": {
-            "type": "string",
-            "defaultValue": "West US"
+            "type": "object"
         },
         "sku": {
             "type": "string",
