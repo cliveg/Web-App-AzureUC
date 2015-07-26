@@ -4,20 +4,19 @@
     "parameters": {
 
         "siteName": {
-	      "type": "object"
-
+	      "type": "string"
         },
         "hostingPlanName": {
-	      "type": "object"
+	      "type": "string"
         },
         "siteLocation": {
-	      "type": "object"
+	      "type": "string"
         },
         "sku": {
-	      "type": "object"
+	      "type": "string"
         },
         "workerSize": {
-	      "type": "object"
+	      "type": "string"
         }
     },
     "resources": [
