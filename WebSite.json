@@ -2,42 +2,22 @@
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "tshirtSize": {
-          "type": "object"
-        },
 
         "siteName": {
-            "type": "string",
-            "defaultValue": "WebApp-AzureUC"
+	      "type": "object"
 
         },
         "hostingPlanName": {
-            "type": "string",
-            "defaultValue": "WebApp-AzureUC-HP"
-
+	      "type": "object"
         },
         "siteLocation": {
-            "type": "object"
+	      "type": "object"
         },
         "sku": {
-            "type": "string",
-            "allowedValues": [
-                "Free",
-                "Shared",
-                "Basic",
-                "Standard",
-                "Premium"
-            ],
-            "defaultValue": "Standard"
+	      "type": "object"
         },
         "workerSize": {
-            "type": "string",
-            "allowedValues": [
-                "0",
-                "1",
-                "2"
-            ],
-            "defaultValue": "0"
+	      "type": "object"
         }
     },
     "resources": [
